@@ -24,6 +24,8 @@ The Items I used to build this project was a Raspberry Pi 3 Model B, some Jumper
 
 The technologies I will use are Python, HTML, CSS, and SQL. More technologies might be added but these are for certain.
 
+What if we use google spreadsheet API to store user name, time stamp, etc. Remember to include buzzer to let user know if attendance have recorded.
+
 I will also plan to use Solidworks CAD design to build an outer frame to house the Raspberry Pi, RFID reader and all other componets into a 3D printed case.
 
 ---
