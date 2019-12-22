@@ -1,8 +1,10 @@
 import RPi.GPIO as GPIO
+import datetime
 
 from mfrc522 import SimpleMFRC522
 
 reader = SimpleMFRC522()
+now = datetime.datetime.now()
 
 print("RFID Card & Tag Reader\n")
 
@@ -14,6 +16,7 @@ try:
 		id, text = reader.read()
 
 		print("Item Read, these are the information on the Card/Tag:")
+		print(now.strftime("\n\tCurrent Date & Time: ", "%Y-%m-%d %H:%M:%S"))
 		print("\n\tCard ID Number: ", id)
 		print("\tCard Message: ", text)
 
