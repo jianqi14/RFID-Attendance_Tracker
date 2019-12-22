@@ -4,13 +4,13 @@ from mfrc522 import SimpleMFRC522
 
 reader = SimpleMFRC522()
 
-print("Read Information from Card")
+print("RFID Card & Tag Reader\n")
 
 try:
 	repeatRead = True
 
 	while(repeatRead == True):
-		print("Hold Card/Tag near the reader!")
+		print("Place Card/Tag over sensor!")
 		id, text = reader.read()
 
 		print("Item Read, these are the information on the Card/Tag:")

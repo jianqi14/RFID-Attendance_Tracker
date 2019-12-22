@@ -4,16 +4,16 @@ from mfrc522 import SimpleMFRC522
 
 reader = SimpleMFRC522()
 
-print("Write new information onto a Card")
+print("RFID Card & Tag Writer\n")
 
 try:
 	text = input('Enter Message: ')
-	print("Place Card over sensor")
+	print("Place Card/Tag over sensor!")
 
 	reader.write(text)
-	print("OverWritten Complete.")
+	print("OverWritten Message Complete.\n")
 
-	print(text)
+	print("\t", text)
 
 finally:
 	GPIO.cleanup()
