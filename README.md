@@ -17,9 +17,8 @@ These are the pins used when connecting the Raspberry Pi and the MFRC522 RFID to
 
 |Buzzer	| input	| outPut|
 |-------|-------|-------|
-|	|Pin 12 | GND	|
+|	    |Pin 12 | GND	|
 
----
 ---
 
 ## Items and Technologies used for built
@@ -28,9 +27,10 @@ The Items I used to build this project was a Raspberry Pi 3 Model B, some Jumper
 
 The technologies I will use are Python, HTML, CSS, and SQL. More technologies might be added but these are for certain.
 
-What if we use google spreadsheet API to store user name, time stamp, etc. Remember to include buzzer to let user know if attendance have recorded.
+There is also a Buzzer noise for confirmation for the user when the RFID had process a task. The Pin that the Buzzer will occupy will be on Raspberry pi board of Pin 12.
+
+What if we use google spreadsheet API to store user name, time stamp, etc.
 
 I will also plan to use Solidworks CAD design to build an outer frame to house the Raspberry Pi, RFID reader and all other componets into a 3D printed case.
 
----
 ---
