@@ -15,6 +15,10 @@ These are the pins used when connecting the Raspberry Pi and the MFRC522 RFID to
 | Pin 23          |  SCK     |
 | Pin 24          |  SDA     |
 
+|Buzzer	| input	| outPut|
+|-------|-------|-------|
+|	|Pin 12 | GND	|
+
 ---
 ---
 
