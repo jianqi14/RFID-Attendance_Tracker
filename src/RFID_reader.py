@@ -19,20 +19,13 @@ print("RFID Card & Tag Reader\n")
 #function of making the buzzing sound
 def buzzerSound():
 	GPIO.output(12, GPIO.HIGH)
-	time.sleep(0.3)
+	time.sleep(0.35)
 	
-	GPIO.output(12, GPIO.LOW)
-	time.sleep(0.15)
-	
-	GPIO.output(12, GPIO.HIGH)
-	time.sleep(0.2)
-		
 	GPIO.output(12, GPIO.LOW)
 	time.sleep(0.15)
 
 def infoDisplay():
 		print("Item Read, these are the information on the Card/Tag:")
-		buzzerSound()
 		print(now.strftime("\n\tDate & Time: %Y-%m-%d %H:%M:%S"))
 		print("\tCard ID Number:", id)
 		print("\tCardHolder Name:", userName)
@@ -44,6 +37,7 @@ try:
 		print("Place Card/Tag over sensor!")
 		id, userName = reader.read()
 
+		buzzerSound()
 		infoDisplay()
 
 		#Ask User if they want to read another Card

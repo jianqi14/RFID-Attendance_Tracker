@@ -34,13 +34,18 @@ def buzzer3Times():
 	time.sleep(0.1)
 
 try:
+
 	userName = input('Enter New Name: ')
-	print("Place Card/Tag over sensor!")
+
+	print("\nPlace Card/Tag over sensor!")
 
 	reader.write(userName)
+	id = reader.read()
+
 	buzzer3Times()
+
 	print("\nMessage Overwritten Complete.")
-	
+
 	print(now.strftime("\n\tCurrent Date & Time: %Y-%m-%d %H:%M:%S"))
 	print("\tCardHolder Name: ", userName)
 
