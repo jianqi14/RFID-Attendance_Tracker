@@ -27,7 +27,7 @@ The Items I used to build this project was a Raspberry Pi 3 Model B, some Jumper
 
 The technologies I will use are Python, HTML, CSS, and SQL. More technologies might be added but these are for certain.
 
-There is also a Buzzer noise for confirmation for the user when the RFID had process a task. The Pin that the Buzzer will occupy will be on Raspberry pi board of Pin 12.
+There is also a Buzzer noise for confirmation to let the user know when the RFID had processed a task. The Pin that the Buzzer will occupied on Raspberry pi board is Pin 12.
 
 What if we use google spreadsheet API to store user name, time stamp, etc.
 
