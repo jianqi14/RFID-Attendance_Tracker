@@ -37,6 +37,9 @@ try:
 
 	userName = input('Enter New Name: ')
 
+	##Another variable if cardHolder is a staff or student.
+	seniority = input('Are you a Office Staff or Student: ')
+
 	print("\nPlace Card/Tag over sensor!")
 
 	reader.write(userName)

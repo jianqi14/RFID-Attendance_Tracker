@@ -33,6 +33,7 @@ def infoDisplay():
 try:
 	repeatRead = True
 
+	#Keep repeating until the User enter No to stop the writer program.
 	while(repeatRead == True):
 		print("Place Card/Tag over sensor!")
 		id, userName = reader.read()
