@@ -48,7 +48,7 @@ python3 RFID_reader.py
 
 Write a RFID Card, Enter the following Command:
 ```
-python3 RFID_reader.py
+python3 RFID_writer.py
 ```
 
 ---
