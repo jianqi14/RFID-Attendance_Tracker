@@ -34,3 +34,21 @@ What if we use google spreadsheet API to store user name, time stamp, etc.
 I will also plan to use Solidworks CAD design to build an outer frame to house the Raspberry Pi, RFID reader and all other componets into a 3D printed case.
 
 ---
+
+## How to run RFID Python Programs
+
+I have 2 programs availble for this RFID Project. One program is for reading data from RFID cards and another is meant for writing new data into the RFID cards. The program for reading data using the RFID is called RFID_reader.py and for writing data is called RFID_writer.py. 
+
+Both the read and write programs uses Python. You will need to open Terminal to run these code individually. Make sure you are at the correct directory before running the program. Once you at the correctory directory where both ```RFID_reader.py``` and ```RFID_writer.py``` are located at, run the following command below to execute them.
+
+Read a RFID Card, Enter the following Command:
+```
+python3 RFID_reader.py
+```
+
+Write a RFID Card, Enter the following Command:
+```
+python3 RFID_reader.py
+```
+
+---
