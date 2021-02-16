@@ -15,11 +15,14 @@ I am constantly improving this project everyday and I hope that someday I could 
 
 These are a few Webpage Designs I've made for students once they had arrived to get check in and departure the office.
 
-<img width="566" alt="Screen Shot 2021-02-15 at 11 01 44 PM" src="https://user-images.githubusercontent.com/40045109/108029533-73bd2600-6fe2-11eb-8767-e934084e00a1.png">
+This is the UI Home Webpage that all students would see once they arrive and leave class. The Webpage would provide details such as the current live Date & Time on the upper left corner of the page and a Logout button for the staffs to exit the Webpage software. 
+<img width="566" alt="Screen Shot 2021-02-15 at 10 57 35 PM" src="https://user-images.githubusercontent.com/40045109/108029559-80417e80-6fe2-11eb-844c-024323b01d57.png">
 
+Once the students successfully gotten Checked-In, this would be the UI Webpage students would see. The UI Webpage would display the Student's photo, name, welcome note and the time they had Checked-In. 
 <img width="565" alt="Screen Shot 2021-02-15 at 11 01 34 PM" src="https://user-images.githubusercontent.com/40045109/108029554-7ae43400-6fe2-11eb-82de-2af20cd27998.png">
 
-<img width="566" alt="Screen Shot 2021-02-15 at 10 57 35 PM" src="https://user-images.githubusercontent.com/40045109/108029559-80417e80-6fe2-11eb-844c-024323b01d57.png">
+Finally, when students leaves the office, the UI Webpage would display a Thank you page of the Student's photo, name & the time they Checked-Out. 
+<img width="566" alt="Screen Shot 2021-02-15 at 11 01 44 PM" src="https://user-images.githubusercontent.com/40045109/108029533-73bd2600-6fe2-11eb-8767-e934084e00a1.png">
 
 ---
 
